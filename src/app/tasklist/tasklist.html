@@ -1,31 +1,32 @@
-<h2 style="text-align: center;">Task List</h2>
+<h2>Task List</h2>
 
-<input
-type="text"
-placeholder="Escribe una nueva tarea"
-[(ngModel)]="newTask"
->
+<div class="task-form">
+  <input
+    type="text"
+    placeholder="Escribe una nueva tarea"
+    [(ngModel)]="newTask"
+  >
+  <button class="btn-add" (click)="addTask()">Agregar</button>
+</div>
 
-<button (click)="addTask()">Agregar</button>
 <hr>
 
-
-@for (task of tasks(); track task.id) {
-
-    <div>
-        <input
+<div class="task-list">
+  @for (task of tasks(); track task.id) {
+    <div class="task-item">
+      <input
         type="checkbox"
         [checked]="task.completed"
         (change)="toggle(task.id!)"
-        >
-        <span [class.completed] = "task.completed">{{task. title}}</span>
-        <button (click)="delete(task.id!)">x</button>
+      >
+      <span class="task-text" [class.completed]="task.completed">{{task.title}}</span>
+      <button class="btn-delete" (click)="delete(task.id!)">×</button>
     </div>
-
-
-} @empty {
-    <p>No hay tareas registradas</p>
-} 
+  } @empty {
+    <p class="empty-message">No hay tareas registradas</p>
+  }
+</div>
+ 
 
 
 

@@ -1,29 +1,24 @@
 {
   "tasks": [
     {
-      "id": "b87d",
-      "title": "cosas locas",
-      "completed": true
-    },
-    {
-      "id": "d751",
-      "title": "cosas que van cambiando",
+      "id": "6d54",
+      "title": "html",
       "completed": false
     },
     {
-      "id": "e8c2",
-      "title": "pasas que cosan",
-      "completed": true
-    },
-    {
-      "id": "a0ef",
-      "title": "angular",
+      "id": "027a",
+      "title": "css",
       "completed": false
     },
     {
-      "id": "c9b5",
-      "title": "vue",
-      "completed": true
+      "id": "9f34",
+      "title": "frameworks",
+      "completed": false
+    },
+    {
+      "id": "1f69",
+      "title": "python",
+      "completed": false
     }
   ]
 }
