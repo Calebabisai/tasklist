@@ -1,0 +1,29 @@
+{
+  "tasks": [
+    {
+      "id": "b87d",
+      "title": "cosas locas",
+      "completed": true
+    },
+    {
+      "id": "d751",
+      "title": "cosas que van cambiando",
+      "completed": false
+    },
+    {
+      "id": "e8c2",
+      "title": "pasas que cosan",
+      "completed": true
+    },
+    {
+      "id": "a0ef",
+      "title": "angular",
+      "completed": false
+    },
+    {
+      "id": "c9b5",
+      "title": "vue",
+      "completed": true
+    }
+  ]
+}

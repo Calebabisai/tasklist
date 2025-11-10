@@ -1,0 +1,31 @@
+<h2 style="text-align: center;">Task List</h2>
+
+<input
+type="text"
+placeholder="Escribe una nueva tarea"
+[(ngModel)]="newTask"
+>
+
+<button (click)="addTask()">Agregar</button>
+<hr>
+
+
+@for (task of tasks(); track task.id) {
+
+    <div>
+        <input
+        type="checkbox"
+        [checked]="task.completed"
+        (change)="toggle(task.id!)"
+        >
+        <span [class.completed] = "task.completed">{{task. title}}</span>
+        <button (click)="delete(task.id!)">x</button>
+    </div>
+
+
+} @empty {
+    <p>No hay tareas registradas</p>
+} 
+
+
+
