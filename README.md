@@ -94,16 +94,16 @@ TaskList/
 │   │   ├── app.html               # Template principal
 │   │   ├── app.css                # Estilos contenedor
 │   │   ├── app.routes.ts          # Rutas (si aplica)
-│   │   ├── task-service.ts        # 🔑 Servicio de tareas (CRUD)
+│   │   ├── task-service.ts        # Servicio de tareas (CRUD)
 │   │   ├── models/
 │   │   │   └── task.model.ts      # Modelo TypeScript
 │   │   └── tasklist/
 │   │       ├── tasklist.ts        # Componente tasklist
 │   │       ├── tasklist.html      # Template tareas
-│   │       └── tasklist.css       # 🎨 Estilos modernos
+│   │       └── tasklist.css       # Estilos modernos
 │   ├── main.ts                    # Punto de entrada
-│   └── styles.css                 # 🎨 Estilos globales
-├── db.json                        # 💾 Base de datos JSON
+│   └── styles.css                 # Estilos globales
+├── db.json                        # Base de datos JSON
 ├── angular.json                   # Configuración Angular
 └── package.json                   # Dependencias
 ```
