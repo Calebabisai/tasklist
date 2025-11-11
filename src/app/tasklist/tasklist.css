@@ -69,12 +69,7 @@ button {
 
 .btn-add:hover {
   background-color: var(--primary-dark);
-  transform: translateY(-2px);
   box-shadow: var(--shadow-md);
-}
-
-.btn-add:active {
-  transform: translateY(0);
 }
 
 /* Botón de eliminar */
@@ -93,7 +88,6 @@ button {
 
 .btn-delete:hover {
   background-color: #dc2626;
-  transform: scale(1.1);
 }
 
 /* ============================================
@@ -130,7 +124,6 @@ hr {
 
 .task-item:hover {
   background-color: var(--bg-primary);
-  transform: translateX(5px);
 }
 
 /* Animación de entrada de tareas */
